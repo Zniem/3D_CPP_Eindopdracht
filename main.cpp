@@ -75,6 +75,7 @@ void draw()
 
     glEnable(GL_DEPTH_TEST);
 
+
     tigl::begin(GL_QUADS);
     tigl::addVertex(Vertex::PC(glm::vec3(1, 1, -1), glm::vec4(0, 0.5, 0, 0)));
     tigl::addVertex(Vertex::PC(glm::vec3(-1, 1, -1), glm::vec4(0, 0.5, 0, 0)));
